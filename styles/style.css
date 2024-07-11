@@ -129,7 +129,7 @@ header{
     gap:30px;
 }
 
-.inspiration{
+.sec-body{
     max-width: 1140px;
     margin: 80px auto;
     display: flex;
@@ -148,10 +148,142 @@ iframe{
     border-radius: 16px;
 }
 
-.cur-target{
-    max-width: 1140px;
-    margin: 80px auto;
+.target-tools{
+    margin:24px auto;
+    display: flex;
+    gap: 24px;
+}
+
+.tools{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 16px;
+}
+
+.tools a{
+    font-family: "Azeret Mono", sans-serif;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.next-target-tools{
+    margin:24px auto;
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.next-tools{
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(13, 19, 33, .15);
+}
+
+.next-tools div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.next-tools div a{
+    font-family: "Azeret Mono", sans-serif;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-me{
+    height: 340px;
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-position: center;
+}
+
+.inner-con{
+    padding: 64px 48px;
+}
+
+input[type="text"]{
+    padding: 20px;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    width: 500px;
+}
+
+#form-button{
+    padding: 20px;
+    width: 120px;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    font-family: "Azeret Mono", sans-serif;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-data{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 48px;
+}
+
+#foot{
+    background-color: rgba(13, 19, 33, .03);
+}
+
+.foot-container{
+    max-width: 1140px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.social > ul{
+    display: flex;
+}
+
+.social > ul >li{
+    list-style: none;
+    padding-right: 15px;
+}
+
+.foot-text{
+    font-family: "Azeret Mono", sans-serif;
+    font-size: 18px;
+    color: rgba(13, 19, 33, 1);
+    font-weight: 600;
+    word-spacing: 0px;
+}
+
+.btn-lm{
+    width: 150px;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-lm a{
+    text-decoration: none;
+    color: #0d1321c0;
 }

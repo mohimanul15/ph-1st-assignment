@@ -16,7 +16,7 @@
                 <p class="web-logo-text">Mohimanul.I</p>
             </div>
             <div class="nav-button">
-                <button class="btn bg-transparent">Download Resume</button>
+                <button class="btn bg-transparent"><a href="assets/resume-mohimanul.pdf" target="_blank" download="" style="color: rgba(13,19,33,.7);">Download Resume</a></button>
             </div>
         </nav>
     </header>
@@ -34,7 +34,7 @@
                     <p class="title-description">Welcome to my digital playground! I'm Mohimanul Islam, a passionate developer dedicated to turning ideas into impactful applications. Explore my projects, discover my skills, and see how I bring creativity and technical expertise together to build innovative solutions.</p>
                 </div>
                 <div>
-                    <button class="btn bg-black"><a href="index.html/#foot">Contact with me</a></button>
+                    <button class="btn bg-black"><a href="index.html#foot">Contact with me</a></button>
                 </div>
             </div>
         </section>
@@ -47,7 +47,9 @@
                         <div class="dev-content">
                             <h3 class="sub-section-title">I will Do Coding and Change The World</h3>
                             <p class="title-description" style="text-align: left;">I love coding for its problem-solving, creativity, continuous learning, and the ability to build impactful, innovative solutions.</p>
-                            <a href="">Learn more</a>
+                            <div class="btn-lm">
+                                <a href="index.html#ins">Learn more</a>
+                            </div>
                         </div>
                         <div class="dev-image">
                             <img src="assets/Layer_1.png" alt="Coding Photo">
@@ -60,14 +62,18 @@
                         <div class="dev-content">
                             <h3 class="sub-section-title">I will help People by creating Modern Web System</h3>
                             <p class="title-description" style="text-align: left;">A modern web system ensures efficiency, scalability, security, and superior user experience with the latest technologies and best practices.</p>
-                            <a href="">Learn more</a>
+                            <div class="btn-lm">
+                                <a href="index.html#cur">Learn more</a>
+                            </div>
                         </div>
                     </section>
                     <section class="dev-inner">
                         <div class="dev-content">
                             <h3 class="sub-section-title">I will Do Coding and Change The World</h3>
                             <p class="title-description" style="text-align: left;">Modern tools boost efficiency, scalability, security, and innovation, enabling faster development and superior user experiences.</p>
-                            <a href="">Learn more</a>
+                            <div class="btn-lm">
+                                <a href="#next">Learn more</a>
+                            </div>
                         </div>
                         <div class="dev-image">
                             <img src="assets/Group 4.png" alt="Coding Photo">
@@ -76,7 +82,7 @@
                 </section>
             </div>
         </section>
-        <section class="inspiration">
+        <section class="sec-body" id="ins">
             <h2 class="section-title">My Inspiration</h2>
             <p class="title-description">Become a developer is the thrill of solving complex problems, the creativity involved in building innovative solutions, the continuous learning opportunities, and the ability to make a meaningful impact on people's lives through technology.
             </p>
@@ -84,34 +90,91 @@
                 <iframe width="1076" height="550" src="https://www.youtube-nocookie.com/embed/B-v5qO6UvUg?si=tkUol-iU4tjuV4rE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
-        <section class="cur-target">
+        <section class="sec-body" id="cur">
             <h2 class="section-title">My Current Target</h2>
             <p class="title-description">HTML structures content, CSS styles it, and JavaScript adds interactivity and dynamic behavior to create engaging web pages.</p>
             <div class="target-tools">
-                <div class="tools">
-                    <img src="" alt="" srcset="">
-                    <h3 class="sub-section-title"></h3>
-                    <p class="title-description"></p>
-                    <a href=""></a>
+                <div class="tools" style="background-color: rgba(255,76,30,.05);">
+                    <img src="assets/html.png" alt="HTML Logo" width="56" height="56">
+                    <div>
+                        <h3 class="sub-section-title" style="color: #0D1321;">HTML</h3>
+                        <p class="title-description" style="text-align: left;  margin-top: 8px;">HTML structures web content using elements like headings, paragraphs, and images, forming the backbone of web pages by defining their layout and content.</p>
+                    </div>
+                    <a href="https://html.com/" target="_blank">Learn More</a>
                 </div>
-                <div class="tools">
-                    <img src="" alt="" srcset="">
-                    <h3 class="sub-section-title"></h3>
-                    <p class="title-description"></p>
-                    <a href=""></a>
+                <div class="tools" style="background-color: rgba(0 ,76,232,.05);">
+                    <img src="assets/css.png" alt="CSS Logo" width="56" height="56">
+                    <div>
+                        <h3 class="sub-section-title" style="color: #0D1321;">CSS</h3>
+                        <p class="title-description" style="text-align: left; margin-top: 8px;">CSS styles web content by controlling layout, colors, fonts, and responsiveness, enhancing the visual presentation and user experience of web pages.</p>
+                    </div>
+                    <a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">Learn More</a>
                 </div>
-                <div class="tools">
-                    <img src="" alt="" srcset="">
-                    <h3 class="sub-section-title"></h3>
-                    <p class="title-description"></p>
-                    <a href=""></a>
+                <div class="tools" style="background-color: rgba(255,233,0,.05);">
+                    <img src="assets/js.png" alt="JavaScript Logo" width="56" height="56">
+                    <div>
+                        <h3 class="sub-section-title" style="color: #0D1321;">JavaScript</h3>
+                        <p class="title-description" style="text-align: left;  margin-top: 8px;">JavaScript adds interactivity and dynamic behavior to web pages, enabling features like animations, form validation, and real-time updates for a more engaging user experience.</p>
+                    </div>
+                    <a href="https://www.javascript.com/" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <section class="sec-body" id="next">
+            <h2 class="section-title">My Next Target</h2>
+            <p class="title-description">MERN tools—MongoDB, Express.js, React, and Node.js—enable full-stack JavaScript development for scalable, efficient, and high-performance web applications.</p>
+            <div class="next-target-tools">
+                <div class="next-tools">
+                    <img src="assets/react.png" alt="HTML Logo">
+                    <div>
+                        <h3 class="sub-section-title" style="color: #0D1321;">ReactJS</h3>
+                        <p class="title-description" style="text-align: left;  margin-top: 8px;">A powerful front-end JavaScript library developed by Facebook for building user interfaces, particularly single-page applications. It allows developers to create reusable UI components, manage state efficiently, and ensure a seamless user experience with its virtual DOM.</p>
+                        <a href="https://react.dev/" target="_blank">Learn More</a>
+                    </div>
+                </div>
+                <div class="next-tools">
+                    <img src="assets/nodejs.png" alt="CSS Logo">
+                    <div>
+                        <h3 class="sub-section-title" style="color: #0D1321;">NodeJS</h3>
+                        <p class="title-description" style="text-align: left; margin-top: 8px;">A JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to execute JavaScript on the server side, enabling the development of scalable and high-performance web applications. Node.js is known for its event-driven, non-blocking I/O model, making it efficient and suitable for real-time applications.</p>
+                        <a href="https://nodejs.org/en" target="_blank">Learn More</a>
+                    </div>
+                </div>
+                <div class="next-tools">
+                    <img src="assets/mongodb.png" alt="CSS Logo">
+                    <div>
+                        <h3 class="sub-section-title" style="color: #0D1321;">MongoDB</h3>
+                        <p class="title-description" style="text-align: left; margin-top: 8px;">A NoSQL database that stores data in flexible, JSON-like documents. It is known for its scalability and ease of use, making it ideal for applications that require large amounts of data and real-time updates.</p>
+                        <a href="https://www.mongodb.com/" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-body contact-me">
+            <div class="inner-con">
+                <h2 class="section-title" style="color: white;">I Need Support</h2>
+                <p class="title-description" style="margin-top: 20px; color: rgba(255,255,255,.7);">I'm looking for support with my web development project. I'm currently working on front-end design, back-end integration, debugging JavaScript, and I'm facing some challenges.</p>
+                <div class="form-data">
+                    <label for="text">
+                        <input type="text" placeholder="Suggest me any feedback for me">
+                    </label>
+                    <button type="button" id="form-button">Submit</button>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
-
+    <footer id="foot">
+        <div class="foot-container">
+            <div class="copywrite"><h4 class="foot-text">An Open Commitment by Mohimanul Islam</h4></div>
+            <div class="social">
+                <ul>
+                    <li><a href="https://m.facebook.com" target="_blank" rel="noopener noreferrer"><img src="assets/facebook.png" alt="facebook icon"></a></li>
+                    <li><a href="https://github.com/mohimanul15" target="_blank" rel="noopener noreferrer"><img src="assets/github.png" alt="github icon"></a></li>
+                    <li><a href="https://www.linkedin.com/in/mohimanul-islam-990a97198/" target="_blank" rel="noopener noreferrer"><img src="assets/linkedin-icon 1.png" alt="linkedin-icon"></a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
